@@ -2,7 +2,7 @@ var projects = document.getElementById("projects");
 
 projects.addEventListener("click", function(){
 	window.scrollTo({
-		top:1000,
+		top:1200,
 		bottom:0,
 		behavior: "smooth"
 	});
