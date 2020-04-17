@@ -271,6 +271,9 @@ input, select, textarea {
 		div.width{
 			padding-left: 30%;
 		}
+		.content.style1 {
+			padding-bottom: 4em;		
+	   }
 
 		}
 		@media screen and (max-width: 1680px) {
@@ -562,9 +565,7 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 100px;
 				}
-				.content.style1 {
-					 padding-bottom: 4em;		
-				}
+	
 
 		@media screen and (max-width: 1680px) {
 
