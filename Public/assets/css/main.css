@@ -562,6 +562,9 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 100px;
 				}
+				.content.style2 {
+					 height: 32em;		
+				}
 
 		@media screen and (max-width: 1680px) {
 
