@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="shortcut icon" href="/images/bolt1.png" id="favicon">
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body class="is-preload">
@@ -33,7 +34,6 @@
 		</footer>
 		<i class="fab fa-github" onclick="window.location.href='https://github.com/Hecano7';"></i>
 		<i class="fab fa-linkedin"></i>
-		<i class="glyphicon glyphicon-file"></i>
 		<i class="glyphicon glyphicon-envelope" id="email"></i>
 	</section>
 	<!-- First -->
@@ -58,6 +58,7 @@
 							<p class="angle">HTML5<br />
 								CSS3 | SASS<br />
 								JavaScript<br />
+								Jquery<br />
 								React | Redux</p>
 						</section>
 					</div>
@@ -140,7 +141,7 @@
 					<div class="card" onclick="window.location.href='https://covid-19-resource-finder.herokuapp.com/';">
 						<div class="card-image2"></div>
 						<div class="card-text">
-							<h2 style="font-weight: 800;">Recource Finder</h2>
+							<h2 style="font-weight: 800;">Resource Finder</h2>
 							<p>You can search for supplies the are closest to you or post any supplies that you have
 								found. </p>
 							<button class="source" href='https://github.com/Hecano7/covid-19'>Source Code</button>
@@ -198,15 +199,15 @@
 			<div class="letter">
 				<div class="content style4 featured">
 					<div class="container medium">
-						<form method="post" action="#">
+						<form method="POST" action="https://formspree.io/7hecano@gmail.com">
 							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-								<div class="col-13"><textarea name="message" placeholder="Message"></textarea></div>
+								<div class="col-6 col-12-mobile"><input type="text" name="-subject" placeholder="Name" id="name" required/></div>
+								<div class="col-6 col-12-mobile"><input type="text" name="_replyto" placeholder="Email" id="e-mail" required/></div>
+								<div class="col-13"><textarea name="message" placeholder="Message" id ="message" required></textarea></div>
 								<div class="col-13">
 									<ul class="actions special">
-										<li><input type="submit" class="button" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
+										<li><input type="submit" class="button" value="Send Message" id="submit_email" onclick="sendEmail()"/></li>
+										<li><input type="reset" class="button alt" value="Clear Form"/></li>
 									</ul>
 								</div>
 							</div>
@@ -222,27 +223,15 @@
 		<ul class="icons">
 
 			<i class="fab fa-github" onclick="window.location.href='https://github.com/Hecano7';" style="width: 1em;
-					height: 1em;
-					color: #aaa;
-					font-size: 3em;
-					line-height: 2em;
-					margin: 0 0.2em 0 0.2em;"></i>
-			<i class="fab fa-linkedin" onclick="window.location.href='https://github.com/Hecano7';" style="width: 1em;
 			height: 1em;
 			color: #aaa;
 			font-size: 3em;
 			line-height: 2em;
 			margin: 0 0.2em 0 0.2em;"></i>
-			<i class="glyphicon glyphicon-file" style="width: 1em;
+			<i class="fab fa-linkedin" onclick="window.location.href='https://github.com/Hecano7';" style="width: 1em;
 			height: 1em;
 			color: #aaa;
-			font-size: 2.8em;
-			line-height: 2em;
-			margin: 0 0.2em 0 0.2em;"></i>
-			<i class="glyphicon glyphicon-envelope" style="width: 1em;
-			height: 1em;
-			color: #aaa;
-			font-size: 2.8em;
+			font-size: 3em;
 			line-height: 2em;
 			margin: 0 0.2em 0 0.2em;"></i>
 		</ul>
@@ -254,13 +243,7 @@
 	</section>
 
 	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
