@@ -1,10 +1,11 @@
+var PORT = process.env.PORT || 5000;
 const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const app = express();
 const axios = require('axios');
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
     console.log("listening at http://localhost:8080")
 });
 app.use(express.static('Public'));
