@@ -563,7 +563,7 @@ input, select, textarea {
 					padding-top: 100px;
 				}
 				.content.style2 {
-					 height: 32em;		
+					 padding-bottom: 4em;		
 				}
 
 		@media screen and (max-width: 1680px) {
