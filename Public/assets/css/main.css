@@ -2641,10 +2641,10 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer {
-				margin: 0 !important;
-				padding: 3em 0 3em 0;
-			}
+				#footer {
+					margin: 0 !important;
+					padding: 3em 0 3em 0;
+				}
 
 				#footer .copyright {
 					margin-top: 2em;
@@ -2655,23 +2655,17 @@ input, select, textarea {
 			   .main > .content.style2 {
 					height: 30em;		
 			   }
-			   
-		
-   
-
 	}
 
-	@media screen and (max-width: 836px) {
-		
 	
-	}
-
-@media screen and (max-width: 736px) {
-	.style2 {
-		 height: 33em;		
-	}
-	
+	@media (max-width:735px){
+		.main > .content.style2 {
+			height: 36em;	
+			padding: 1em 20px 3.5em 20px;	
+	   }
 }
+
+
 	@media screen and (max-width: 536px) {
 
 		/* Basic */
