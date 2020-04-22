@@ -2667,6 +2667,9 @@ input, select, textarea {
 	}
 
 @media screen and (max-width: 736px) {
+	.style2 {
+		 height: 33em;		
+	}
 	
 }
 	@media screen and (max-width: 536px) {
