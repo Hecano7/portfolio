@@ -2397,7 +2397,7 @@ input, select, textarea {
 			}
 
 		.main > .content {
-			padding: 1em 0em 0em 0em;
+			padding: 2em 0em 0em 0em;
 		}
 
 			.main > .content h3 {
@@ -2409,7 +2409,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-			background-color: rgb(72,158,215); transform: skewY(-5deg); margin-bottom: 6em; height: 30em;padding-bottom: 4.5em;
+			background-color: rgb(72,158,215); transform: skewY(-5deg); margin-bottom: 6em; height: 30em;padding-top: 5em;
 			}
 
 			.main > .content.style2 {
@@ -2496,7 +2496,7 @@ input, select, textarea {
 
 			
 			.main > .content.style1 {
-				padding-top: 1em;
+				padding-top: 3em 0em 2em 0em;
 				}
 
 	}
