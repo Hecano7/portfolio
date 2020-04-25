@@ -3,7 +3,7 @@ const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const app = express();
-const axios = require('axios');
+const mailer = require("./Public/assets/js/mailer");
 
 app.listen(PORT, () => {
     console.log("listening at http://localhost:3000")
@@ -14,9 +14,9 @@ app.use(morgan('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true}))
 
-app.set('views' , './views');
+// app.set('views' , './views');
 
-app.set('view engine' , 'ejs');
+// app.set('view engine' , 'ejs');
 
 app.get('/',(req, res) => {
     res.sendFile('index.html', {root: __dirname })
@@ -30,4 +30,7 @@ app.post('/thanks', (req, res) => {
 res.render('thanks', { contact: req.body })
 });
 
-
+app.post('/submit', (req, res) => {
+mailer(req);
+res.sendFile('index.html', {root: __dirname });
+});

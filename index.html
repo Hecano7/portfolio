@@ -199,14 +199,14 @@
 			<div class="letter">
 				<div class="content style4 featured">
 					<div class="container medium">
-						<form method="POST" action="https://formspree.io/7hecano@gmail.com">
+						<form method="POST" action="/submit">
 							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" name="-subject" placeholder="Name" id="name" required/></div>
-								<div class="col-6 col-12-mobile"><input type="text" name="_replyto" placeholder="Insert your email" id="e-mail" required/></div>
+								<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" id="name" required/></div>
+								<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Insert your email" id="e-mail" required/></div>
 								<div class="col-13"><textarea name="message" placeholder="Message" id ="message" required></textarea></div>
 								<div class="col-13">
 									<ul class="actions special">
-										<li><input type="submit" class="button" value="Send Message" id="submit_email"/></li>
+										<li><input type="submit" class="button" value="Send Message" id="submit_email" onclick="sendEmail()"/></li>
 										<li><input type="reset" class="button alt" value="Clear Form"/></li>
 									</ul>
 								</div>

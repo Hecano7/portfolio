@@ -1,5 +1,13 @@
 var projects = document.getElementById("projects");
 
+document.addEventListener("DOMContentLoaded", function () {
+
+	if (localStorage.getItem("mail") == "sent") {
+		alert("Message Sent: Thank you for your message.");
+		localStorage.setItem("mail","");
+	}
+});	
+
 projects.addEventListener("click", function(){
 	window.scrollTo({
 		top:1500,
@@ -7,8 +15,6 @@ projects.addEventListener("click", function(){
 		behavior: "smooth"
 	});
 });
-
-var email = document.getElementById("email");
 
 email.addEventListener("click", function(){
 	window.scrollTo({
@@ -19,6 +25,11 @@ email.addEventListener("click", function(){
 });
 
 function sendEmail() {
-	document.getElementById("passthrough").click();
+	var email = document.getElementById("email").value;
+	var name = document.getElementById("name").value;
+	var message = document.getElementById("message").value;
+	if(email != "" && name != "" && message != ""){
+	localStorage.setItem("mail","sent");
+	}
 };
 
