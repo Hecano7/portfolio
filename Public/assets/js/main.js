@@ -1,5 +1,5 @@
 var projects = document.getElementById("projects");
-console.log(process.env.EMAIL);
+
 document.addEventListener("DOMContentLoaded", function () {
 	if (localStorage.getItem("mail") == "sent") {
 		alert("Message Sent: Thank you for your message.");
