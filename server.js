@@ -3,12 +3,12 @@ const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const app = express();
-const mailer = require("public/assets/js/mailer");
+const mailer = require("./Public/assets/js/mailer");
 
 app.listen(PORT, () => {
     console.log("listening at http://localhost:3000")
 });
-app.use(express.static('public'));
+app.use(express.static('Public'));
 
 app.use(morgan('dev'))
 app.use(bodyParser.json())
