@@ -1,5 +1,5 @@
-require('./node_modules/dotenv').config();
-var nodemailer = require("./node_modules/nodemailer");
+// require('dotenv').config();
+var nodemailer = require("nodemailer");
 
 module.exports = (request) => {
     console.log(process.env.EMAIL,process.env.PASSWORD,process.env.SENDTO);
