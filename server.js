@@ -31,7 +31,7 @@ res.render('thanks', { contact: req.body })
 });
 
 app.post('/submit', (req, res) => {
-    console.log(req);
+    console.log(req.body);
 mailer(req);
 res.sendFile('index.html', {root: __dirname });
 });
