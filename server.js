@@ -3,7 +3,7 @@ const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const app = express();
-const mailer = require("assets/js/mailer");
+const mailer = require("public/assets/js/mailer.js");
 
 app.listen(PORT, () => {
     console.log("listening at http://localhost:3000")
