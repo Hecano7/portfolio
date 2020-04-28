@@ -34,5 +34,4 @@ app.post('/submit', (req, res) => {
     console.log(req.body);
 mailer(req);
 res.sendFile('index.html', {root: __dirname });
-res.end()
 });
