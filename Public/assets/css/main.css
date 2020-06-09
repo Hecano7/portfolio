@@ -1630,7 +1630,7 @@ input, select, textarea {
 			  }
 			  .card-image3 {
 				grid-area: image;
-				background: url("images/COVID-19.png");
+				background: url("images/calculatorapp.png");
 				border-top-left-radius: 15px;
 				border-top-right-radius: 15px;
 				background-size: cover;
