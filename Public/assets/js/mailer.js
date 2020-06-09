@@ -1,5 +1,5 @@
-require('dotenv').config();
-var nodemailer = require("nodemailer");
+require('./node_modules/dotenv').config();
+var nodemailer = require("./node_modules/nodemailer");
 
 module.exports = (request) => {
     // transporter
