@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true}))
 // app.set('view engine' , 'ejs');
 
 app.get('/',(req, res) => {
-    res.sendFile('index.html', {root: __dirname })
+    res.sendFile('/index.html', {root: __dirname })
 });
 
 app.get('/contact', (req, res) => {
@@ -32,5 +32,5 @@ res.render('thanks', { contact: req.body })
 app.post('/submit', (req, res) => {
     console.log(req.body);
 mailer(req);
-res.sendFile('index.html', {root: __dirname });
+res.sendFile('/index.html', {root: __dirname });
 });
