@@ -219,7 +219,7 @@ input, select, textarea {
 	}
 
 	header {
-		margin-bottom: 1em;
+		margin-bottom: 5em;
 	}
 
 		header h1, header h2, header h3, header h4, header h5, header h6 {
@@ -388,7 +388,8 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%; transform: skewY(-5deg);
+			width: 33.33333%; 
+			transform: skewY(-5deg);
 		}
 
 		.row > .off-4 {
@@ -452,7 +453,8 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 100%;transform: skewY(5deg)
+			width: 100%;
+			transform: skewY(5deg);
 		}
 		.row > .col-13 {
 			width: 100%;
@@ -1570,7 +1572,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 0.5em;
-			transform: skewY(-5deg);
+			/* transform: skewY(-5deg); */
 			margin: 10px;
 		}
 
@@ -2416,7 +2418,8 @@ input, select, textarea {
 		}
 
 			.main > .content h3 {
-				font-size: 1.5em; transform: skewY(10deg)
+				font-size: 1.5em; 
+				transform: skewY(10deg)
 			}
 
 			.main > .content.dark {
@@ -2424,11 +2427,15 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-			background-color: rgb(72,158,215); transform: skewY(-5deg); margin-bottom: 6em; height: 30em;padding-top: 5em;
+			background-color: rgb(72,158,215); 
+			transform: skewY(-5deg);
+			margin-bottom: 6em; height: 30em;padding-top: 5em;
 			}
 
 			.main > .content.style2 {
-				background-color: rgb(72,158,215); transform: skewY(2deg);margin-bottom: 4em; height: 27em;		
+				background-color: rgb(72,158,215); 
+				transform: skewY(2deg);
+				margin-bottom: 4em; height: 27em;		
 			}
 
 			.main > .content.style3 {
