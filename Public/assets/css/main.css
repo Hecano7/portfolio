@@ -35,6 +35,7 @@ body {
 
 .glyph{
 	text-align: center;
+	transform: skewY(-10deg);
 }
 
 ol, ul {
