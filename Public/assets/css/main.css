@@ -37,6 +37,12 @@ body {
 	text-align: center;
 	transform: skewY(-10deg);
 	background-color: white;
+	padding-top: 0;
+	margin-top: -60px;
+}
+
+.straigten{
+	transform: skewY(10deg);	
 }
 
 ol, ul {
@@ -2673,7 +2679,7 @@ input, select, textarea {
 					margin-top: 2em;
 				}
 				.main > .content.style1 {
-					height: 90em;		
+					height: 95em;		
 			   }
 			   .main > .content.style2 {
 					height: 30em;		
