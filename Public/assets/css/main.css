@@ -2360,6 +2360,7 @@ input, select, textarea {
 		text-align: center;
 		color: #fff;
 		clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+		margin-bottom: 1em;
 	}
 
 		#header header h1 {
