@@ -220,7 +220,6 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1em;
-		transform: skewY(10deg);
 	}
 
 		header h1, header h2, header h3, header h4, header h5, header h6 {
