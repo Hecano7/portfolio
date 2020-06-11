@@ -1572,7 +1572,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 0.5em;
-			transform: skewY(-5deg);
+			/* transform: skewY(-5deg); */
 			margin: 10px;
 		}
 
@@ -2358,10 +2358,9 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("../../images/nature.gif");
-		transform: skewY(-10deg);
+		background: url("../../images/nature.gif");
 		background-size: cover;
-		background-position: top left, center center;
+		background-position: top left;
 		background-repeat: repeat, no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
