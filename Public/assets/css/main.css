@@ -35,14 +35,14 @@ body {
 
 .glyph{
 	text-align: center;
-	transform: skewY(-10deg);
+	transform: skewY(-5deg);
 	background-color: white;
 	padding-top: 0;
 	margin-top: -60px;
 }
 
 .straigten{
-	transform: skewY(10deg);	
+	transform: skewY(5deg);	
 }
 
 ol, ul {
@@ -2374,6 +2374,7 @@ input, select, textarea {
 		text-align: center;
 		color: #fff;
 		clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+		padding-bottom: 25%;
 	}
 
 		#header header h1 {
@@ -2436,7 +2437,7 @@ input, select, textarea {
 			.main > .content.style1 {
 			background-color: rgb(72,158,215); 
 			transform: skewY(-5deg);
-			margin-bottom: 6em; height: 30em;padding-top: 5em;
+			margin-bottom: 6em;padding-top: 5em;
 			}
 
 			.main > .content.style2 {
@@ -2537,6 +2538,7 @@ input, select, textarea {
 			
 			.main > .content.style1 {
 				padding-top: 4em;
+				height: 10%
 				}
 
 	}
@@ -2586,7 +2588,7 @@ input, select, textarea {
 				padding: 5em 0em 5em 0em;
 			}
 			.main > .content.style1 {
-				height: 33em;		
+				height: 35em;		
 		   }
 		   .main > .content.style2 {
 				height: 34em;		
@@ -2759,9 +2761,6 @@ input, select, textarea {
 
 			.main > .content {
 				padding: 3em 20px 3em 20px; height: "";
-			}
-			.main > .content.style1 {
-				 height: 86em;		
 			}
 			.main > .content.style2 {
 				 height: 37em;		
