@@ -31,4 +31,3 @@ function sendEmail() {
 	localStorage.setItem("mail","sent");
 	}
 };
-

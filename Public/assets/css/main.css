@@ -93,6 +93,10 @@ input, select, textarea {
 	html {
 		box-sizing: border-box;
 	}
+	video {
+		width: 100%;
+		height: auto;
+	}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
@@ -1639,7 +1643,7 @@ input, select, textarea {
 			  }
 			  .card-image2 {
 				grid-area: image;
-				background: url("images/COVID-19.png");
+				background: url("images/ironwork.png");
 				border-top-left-radius: 15px;
 				border-top-right-radius: 15px;
 				background-size: cover;
