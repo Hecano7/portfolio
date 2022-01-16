@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const router = express.Router();
 const bodyParser = require("body-parser");
 const app = express();
-const mailer = require("./Public/assets/js/mailer");
+const mailer = require("./mailer");
 var fs = require('fs');
 
 app.listen(PORT, () => {
