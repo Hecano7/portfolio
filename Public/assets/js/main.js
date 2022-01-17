@@ -8,11 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });	
 
 projects.addEventListener("click", function(){
-	window.scrollTo({
-		top:1500,
-		bottom:0,
-		behavior: "smooth"
-	});
+	portfolio.scrollIntoView({behavior: "smooth"});
 });
 
 email.addEventListener("click", function(){

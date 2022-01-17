@@ -331,6 +331,10 @@ input, select, textarea {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+	.column {
+		display: flex;
+		flex-direction: column;
+	}
 	.width{
 		display: flex;
 		flex-wrap: wrap;
@@ -2413,6 +2417,7 @@ input, select, textarea {
 	.main {
 		position: relative;
 		margin: 0;
+
 	}
 
 		.main > header {
