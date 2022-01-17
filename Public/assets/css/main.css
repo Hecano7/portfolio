@@ -1616,7 +1616,7 @@ input, select, textarea {
 			.card {
 				display: grid;
 				grid-template-columns: 300px;
-				grid-template-rows: 210px 210px 80px;
+				grid-template-rows: 180px 240px 80px;
 				grid-template-areas: "image" "text" "stats";
 			  
 				border-radius: 18px;
@@ -1746,6 +1746,7 @@ input, select, textarea {
 				transition: all .2s;
 				font-size: 1.6rem;
 				font-weight: 900;
+				padding: 0.85em 3em 0.85em 3em;
 			  }
 			  .source {
 				animation: bottomIn 0.75s ease-out 0.5s;
