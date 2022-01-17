@@ -10,12 +10,12 @@ module.exports = (request) => {
     },
   });
   // mail options
-  const mailOptions = {
-    from: `${request.body.name}`,
-    to: "canoironworksd@gmail.com",
-    subject: `${request.body.name}: ${request.body.email}`,
-    text: `Message Body\n${request.body.message}`,
-  };
+  var mailOptions = {
+      from: 'canoironwork@outlook.com',
+      to: "canoironworksd@gmail.com",
+      subject: `${request.body.name}: ${request.body.email}`,
+      text: `Message Body:\n ${request.body.message}`
+  }
   // use the transporter to send email
   transporter.sendMail(mailOptions, (err, info) => {
     if (err) {
